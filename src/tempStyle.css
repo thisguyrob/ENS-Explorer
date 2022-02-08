@@ -1,0 +1,22 @@
+.container {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  margin: 30px;
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 100;
+  background: #fff;
+}
+
+.overlay {
+  z-index: 9;
+  margin: 30px;
+  background: #009938;
+}
